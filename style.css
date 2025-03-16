@@ -57,3 +57,62 @@ a {
   padding: 60px 9% 0;
   color: white;
 }
+
+.home-info h1 {
+  font-size: 55px;
+}
+
+.home-info h2 {
+  font-size: 35px;
+  margin-top: -10px;
+}
+
+.home-info p {
+  font-size: 18px;
+  margin: 10px 0 25px;
+}
+
+.home-info .btn-sci {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: yellow;
+  border: 2px solid yellow;
+  border-radius: 40px;
+  box-shadow: 0 0 10px yellow;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: transparent;
+  color: yellow;
+  box-shadow: none;
+}
+
+.home-info .btn-sci .sci {
+  margin-left: 21px;
+}
+
+.home-info .btn-sci .sci a {
+  display: inline-flex;
+  padding: 8px;
+  border: 2px solid yellow;
+  border-radius: 50%;
+  font-size: 20px;
+  color: yellow;
+  margin: 0 8px;
+  transition: 0.5s;
+}
+
+.home-info .btn-sci .sci a:hover {
+  background: yellow;
+  color: #1f242d;
+  box-shadow: 0 0 10px yellow;
+}
